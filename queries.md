@@ -83,7 +83,7 @@ Sort: { number_of_employees: 1 }
 
 ### 17. All the companies whose acquisition amount is more than 10.000.000, and currency is 'EUR'.
 
-<!-- Your Code Goes Here -->
+Filter: { "acquisition.price_amount":{$gt:10000000}, "acquisition.price_currency_code":'EUR' }
 
 ### 18. All the companies that have been acquired on the first trimester of the year. Limit the search to 10 companies, and retrieve only their `name` and `acquisition` fields.
 
